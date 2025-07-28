@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div className="space-y-6 bg-gray-100">
+    <div className="space-y-6">
       <section>
         <p className="leading-relaxed">
           <strong>Computeringenieurin</strong> mit Bachelorabschluss und IHK-Zertifikat als Fachinformatikerin für Anwendungsentwicklung.
