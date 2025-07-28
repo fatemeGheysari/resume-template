@@ -45,7 +45,7 @@ export default function Resume() {
         </div>
       </section>
       <section>
-        <h2 className="text-xl font-semibold border-b pb-1">Bildung</h2>
+        <h2 className="text-xl font-semibold border-b border-t pb-1">Ausbildung in Deutschland</h2>
         <div className="mt-4 space-y-2 text-sm">
           <div>
             <p className="font-medium">Umschulung zur Fachinformatikerin Anwendungsentwicklung</p>
