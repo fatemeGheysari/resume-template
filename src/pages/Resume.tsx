@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 bg-gray-100">
       <section>
         <p className="leading-relaxed">
           <strong>Computeringenieurin</strong> mit Bachelorabschluss und IHK-Zertifikat als Fachinformatikerin für Anwendungsentwicklung.
@@ -58,18 +58,44 @@ export default function Resume() {
           </div>
         </div>
       </section>
+      <section>
+        <h2 className="text-xl font-semibold border-b border-t pb-1">Vorgestellte Projekte</h2>
+        <div className="mt-4 space-y-4 text-sm">
+          <div className="flex gap-4 text-sm">
+            <div className="space-y-1">
+              <h3 className="font-bold">Full-Stack-Software zur Projekt- und Finanzdaten Verwaltung im rahmen der digitaliesirung von krankenhäusen (KHZG)</h3>
+              <div className="mt-2 ml-6 space-y-1 text-sm">
+                <div className="grid grid-cols-[90px_1fr] gap-x-2">
+                  <span className="font-semibold">Rolle:</span>
+                  <span>Full-Stack Entwicklerin (Frontend & Backend)</span>
+                </div>
+                <div className="grid grid-cols-[90px_1fr] gap-x-2">
+                  <span className="font-semibold">Zeitraum:</span>
+                  <span>Während der Ausbildung</span>
+                </div>
+              </div>
+              <ul className="list-disc pl-5 space-y-1 text-sm">
+                <li>Eigenständige Entwicklung einer Webanwendung zur Verwaltung von Krankenhausprojekten nach den Anforderungen des Krankenhauszukunftsgesetzes (KHZG)</li>
+                <li>Umsetzung einer Import- und Prüf-Logik für Finanzdaten aus Excel, inklusive Validierung, Business-Logik und Plausibilitätsprüfung</li>
+                <li>Gestaltung eines intuitiven Frontends sowie Entwicklung der Backend-Architektur mit strukturierter SQL-Datenbankanbindung</li>
+                <li>Enge Zusammenarbeit mit medizinischen Fachkräften und Ausbildern zur Sicherstellung von Praxisbezug und Gesetzeskonformität</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="mt-6">
         <h2 className="text-xl font-semibold border-b border-t pb-1">Ausbildung in Deutschland</h2>
         <div className="mt-4 space-y-4 text-sm">
           <div className="flex gap-4">
-            <div className="w-28 shrink-0 text-gray-600">07/21 – 07/23</div>
+            <div className="w-28 shrink-0 text-gray-600 italic">07/21 – 07/23</div>
             <div>
               <p className="font-medium">Umschulung zur Fachinformatikerin für Anwendungsentwicklung mit IHK-Abschluss</p>
               <p className="text-gray-700 italic">BBQ GmbH Berlin</p>
             </div>
           </div>
           <div className="flex gap-4">
-            <div className="w-28 shrink-0 text-gray-600">10/19 – 08/20</div>
+            <div className="w-28 shrink-0 text-gray-600 italic">10/19 – 08/20</div>
             <div>
               <p className="font-medium">C1 und B2 Deutschkurs mit B2 telc Zertifikat</p>
               <p className="text-gray-700 italic">IQ-Wissen Berlin Pankow, Deutschland</p>
@@ -83,14 +109,14 @@ export default function Resume() {
         <h2 className="text-xl font-semibold border-b border-t pb-1">Studium im Iran</h2>
         <div className="mt-4 space-y-4 text-sm">
           <div className="flex gap-4">
-            <div className="w-28 shrink-0 text-gray-600">10/14 – 07/17</div>
+            <div className="w-28 shrink-0 text-gray-600 italic">10/14 – 07/17</div>
             <div>
               <p className="font-medium">Übersetzerstudium (Englisch/Persisch) mit Bachelor Abschluss</p>
               <p className="text-gray-700 italic">Sheikh-Bahaei-Universität Isfahan, Iran	</p>
             </div>
           </div>
           <div className="flex gap-4">
-            <div className="w-28 shrink-0 text-gray-600">10/04 – 07/08</div>
+            <div className="w-28 shrink-0 text-gray-600 italic">10/04 – 07/08</div>
             <div>
               <p className="font-medium">Informatikstudium mit dem Schwerpunkt Softwareentwicklung und Bachelorabschluss sowie Anerkennung in Deutschland</p>
               <p className="text-gray-700 italic">Islamic Azad Universität</p>
