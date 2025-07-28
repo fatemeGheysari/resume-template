@@ -13,50 +13,93 @@ export default function Resume() {
       <section>
         <h2 className="text-xl font-semibold border-b border-t pb-1">Berufserfahrung</h2>
         <div className="mt-4 space-y-4 text-sm">
-          <div>
-            <h3 className="font-bold">Freelance Webentwicklerin (Fullstack)</h3>
-            <p className="italic">11/2024 – aktuell</p>
-            <ul className="list-disc list-inside ml-4 mt-1">
-              <li>Entwicklung individueller Weblösungen für Kund:innen</li>
-              <li>Frontend mit JavaScript, React, HTML, CSS</li>
-              <li>Backend mit C#, ASP.NET Core, JS-Technologien</li>
-              <li>NoSQL-Datenbanken (MongoDB)</li>
-            </ul>
+          <div className="flex gap-4 text-sm">
+            <div className="w-24 shrink-0 text-gray-600 italic">
+              11/24 – aktuell
+            </div>
+            <div className="space-y-1">
+              <h3 className="font-bold">Freelance Webentwicklerin (Fullstack)</h3>
+              <ul className="list-disc list-inside ml-4 mt-1">
+                <li>Entwicklung individueller Weblösungen für Kund:innen</li>
+                <li>Frontend mit JavaScript, React, HTML, CSS</li>
+                <li>Backend mit C#, ASP.NET Core, JS-Technologien</li>
+                <li>NoSQL-Datenbanken (MongoDB)</li>
+              </ul>
+            </div>
           </div>
           <div>
-            <h3 className="font-bold">Webentwicklerin – Begis GmbH</h3>
-            <p className="italic">09/2023 – 10/2024</p>
-            <ul className="list-disc list-inside ml-4 mt-1">
-              <li>Orchard CMS, C#, ASP.NET, Razor, JavaScript</li>
-              <li>Arbeiten mit modularen Strukturen</li>
-              <li>Anpassung von Themes und Vorlagen</li>
-            </ul>
+            <div className="flex gap-4 text-sm">
+              <div className="w-24 shrink-0 text-gray-600 italic">
+                09/23 – 10/24
+              </div>
+              <div className="space-y-1">
+                <h3 className="font-bold">Webentwicklerin – Begis GmbH</h3>
+                <ul className="list-disc list-inside ml-4 mt-1">
+                  <li>Orchard CMS, C#, ASP.NET, Razor, JavaScript</li>
+                  <li>Arbeiten mit modularen Strukturen</li>
+                  <li>Anpassung von Themes und Vorlagen</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div>
-            <h3 className="font-bold">Praktikantin – Helios IT Service GmbH</h3>
-            <p className="italic">09/2022 – 05/2023</p>
-            <ul className="list-disc list-inside ml-4 mt-1">
-              <li>Blazor, Bootstrap, REST-API (Swagger/OpenAPI)</li>
-              <li>Entity Framework Core & MS SQL Server</li>
-              <li>Git, Azure DevOps (CI/CD), NuGet</li>
-              <li>Projekt: KHZG-Fördermittelverwaltung</li>
-            </ul>
+          <div className="flex gap-4 text-sm">
+            <div className="w-24 shrink-0 text-gray-600 italic">
+              09/22 – 05/23
+            </div>
+            <div className="space-y-1">
+              <h3 className="font-bold">Praktikantin – Helios IT Service GmbH</h3>
+              <ul className="list-disc list-inside ml-4 mt-1">
+                <li>Blazor, Bootstrap, REST-API (Swagger/OpenAPI)</li>
+                <li>Entity Framework Core & MS SQL Server</li>
+                <li>Git, Azure DevOps (CI/CD), NuGet</li>
+                <li>Projekt: KHZG-Fördermittelverwaltung</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
-      <section>
+      <section className="mt-6">
         <h2 className="text-xl font-semibold border-b border-t pb-1">Ausbildung in Deutschland</h2>
-        <div className="mt-4 space-y-2 text-sm">
-          <div>
-            <p className="font-medium">Umschulung zur Fachinformatikerin Anwendungsentwicklung</p>
-            <p className="text-gray-600">BCW Bildungswerk der Wirtschaft, 2022–2024</p>
+        <div className="mt-4 space-y-4 text-sm">
+          <div className="flex gap-4">
+            <div className="w-28 shrink-0 text-gray-600">07/21 – 07/23</div>
+            <div>
+              <p className="font-medium">Umschulung zur Fachinformatikerin für Anwendungsentwicklung mit IHK-Abschluss</p>
+              <p className="text-gray-700 italic">BBQ GmbH Berlin</p>
+            </div>
           </div>
-          <div>
-            <p className="font-medium">Bachelor in Computer Engineering</p>
-            <p className="text-gray-600">Islamic Azad University, Iran</p>
+          <div className="flex gap-4">
+            <div className="w-28 shrink-0 text-gray-600">10/19 – 08/20</div>
+            <div>
+              <p className="font-medium">C1 und B2 Deutschkurs mit B2 telc Zertifikat</p>
+              <p className="text-gray-700 italic">IQ-Wissen Berlin Pankow, Deutschland</p>
+            </div>
           </div>
+
         </div>
       </section>
+
+      <section className="mt-6">
+        <h2 className="text-xl font-semibold border-b border-t pb-1">Studium im Iran</h2>
+        <div className="mt-4 space-y-4 text-sm">
+          <div className="flex gap-4">
+            <div className="w-28 shrink-0 text-gray-600">10/14 – 07/17</div>
+            <div>
+              <p className="font-medium">Übersetzerstudium (Englisch/Persisch) mit Bachelor Abschluss</p>
+              <p className="text-gray-700 italic">Sheikh-Bahaei-Universität Isfahan, Iran	</p>
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div className="w-28 shrink-0 text-gray-600">10/04 – 07/08</div>
+            <div>
+              <p className="font-medium">Informatikstudium mit dem Schwerpunkt Softwareentwicklung und Bachelorabschluss sowie Anerkennung in Deutschland</p>
+              <p className="text-gray-700 italic">Islamic Azad Universität</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
     </div>
   );
 }
