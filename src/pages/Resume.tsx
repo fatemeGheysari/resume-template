@@ -44,6 +44,19 @@ export default function Resume() {
           </div>
         </div>
       </section>
+      <section>
+        <h2 className="text-xl font-semibold border-b pb-1">Bildung</h2>
+        <div className="mt-4 space-y-2 text-sm">
+          <div>
+            <p className="font-medium">Umschulung zur Fachinformatikerin Anwendungsentwicklung</p>
+            <p className="text-gray-600">BCW Bildungswerk der Wirtschaft, 2022–2024</p>
+          </div>
+          <div>
+            <p className="font-medium">Bachelor in Computer Engineering</p>
+            <p className="text-gray-600">Islamic Azad University, Iran</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
