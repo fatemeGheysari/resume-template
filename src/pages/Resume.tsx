@@ -21,9 +21,9 @@ export default function Resume() {
               <h3 className="font-bold">Freelance Webentwicklerin (Fullstack)</h3>
               <ul className="list-disc list-inside ml-4 mt-1">
                 <li>Entwicklung individueller Weblösungen für Kund:innen</li>
-                <li>Frontend mit JavaScript, React, HTML, CSS</li>
+                <li>Frontend mit JavaScript, React, TypeScript, HTML, CSS</li>
                 <li>Backend mit C#, ASP.NET Core, JS-Technologien</li>
-                <li>NoSQL-Datenbanken (MongoDB)</li>
+                <li>MS SQL, NoSQL-Datenbanken (MongoDB)</li>
               </ul>
             </div>
           </div>
