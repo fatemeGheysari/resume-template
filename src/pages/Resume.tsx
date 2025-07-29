@@ -133,6 +133,35 @@ export default function Resume() {
           </div>
         </div>
       </section>
+      <section>
+        <h2 className="text-xl font-semibold border-b border-t pb-1">Ehrenamtliche Tätigkeiten</h2>
+        <div className="mt-4 space-y-4 text-sm">
+          <div className="flex gap-4 text-sm">
+            <div className="w-24 shrink-0 text-gray-600 italic">
+              08/18 – aktuell
+            </div>
+            <div className="space-y-1">
+              <h3 className="font-bold">Schöneberg Hilft e.V., Berlin</h3>
+              <ul className="list-disc list-inside ml-4 mt-1">
+                <li>Unterstützung von Familien & Kindern in Berlin, Organisation von Aktivitäten </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div className="flex gap-4 text-sm">
+              <div className="w-24 shrink-0 text-gray-600 italic">
+                02/25 – aktuell
+              </div>
+              <div className="space-y-1">
+                <h3 className="font-bold">Need4Deed, Berlin</h3>
+                <ul className="list-disc list-inside ml-4 mt-1">
+                  <li>Ehrenamtliche Dolmetscherin (Farsi-Deutsch) für geflüchtete Personen</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="mt-6">
         <h2 className="text-xl font-semibold border-b border-t pb-1">Studium im Iran</h2>
         <div className="mt-4 space-y-4 text-sm">
