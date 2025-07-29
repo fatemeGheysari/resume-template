@@ -104,7 +104,35 @@ export default function Resume() {
 
         </div>
       </section>
-
+      <section>
+        <h2 className="text-xl font-semibold border-b border-t pb-1">Weitere Berufserfahrung</h2>
+        <div className="mt-4 space-y-4 text-sm">
+          <div className="flex gap-4 text-sm">
+            <div className="w-24 shrink-0 text-gray-600 italic">
+              07/14 – 12/17
+            </div>
+            <div className="space-y-1">
+              <h3 className="font-bold">Sprachschule Nobough-Zaban, Isfahan (Iran)</h3>
+              <ul className="list-disc list-inside ml-4 mt-1">
+                <li>Sprachdozentin für Englisch als Fremdsprache</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div className="flex gap-4 text-sm">
+              <div className="w-24 shrink-0 text-gray-600 italic">
+                07/08 – 12/14
+              </div>
+              <div className="space-y-1">
+                <h3 className="font-bold">Pars Institute, Ahwaz (Iran)</h3>
+                <ul className="list-disc list-inside ml-4 mt-1">
+                  <li>IT-Dozentin für Computergrundlagen, Office, und Netzwerke</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="mt-6">
         <h2 className="text-xl font-semibold border-b border-t pb-1">Studium im Iran</h2>
         <div className="mt-4 space-y-4 text-sm">
