@@ -88,16 +88,16 @@ export default function Resume() {
         <h2 className="text-xl font-semibold border-b border-t pb-1">Ausbildung in Deutschland</h2>
         <div className="mt-4 space-y-4 text-sm">
           <div className="flex gap-4">
-            <div className="w-28 shrink-0 text-gray-600 italic">07/21 – 07/23</div>
+            <div className="w-24 shrink-0 text-gray-600 italic">07/21 – 07/23</div>
             <div>
-              <p className="font-medium">Umschulung zur Fachinformatikerin für Anwendungsentwicklung mit IHK-Abschluss</p>
+              <p className="font-bold">Umschulung zur Fachinformatikerin für Anwendungsentwicklung mit IHK-Abschluss</p>
               <p className="text-gray-700 italic">BBQ GmbH Berlin</p>
             </div>
           </div>
           <div className="flex gap-4">
-            <div className="w-28 shrink-0 text-gray-600 italic">10/19 – 08/20</div>
+            <div className="w-24 shrink-0 text-gray-600 italic">10/19 – 08/20</div>
             <div>
-              <p className="font-medium">C1 und B2 Deutschkurs mit B2 telc Zertifikat</p>
+              <p className="font-bold">C1 und B2 Deutschkurs mit B2 telc Zertifikat</p>
               <p className="text-gray-700 italic">IQ-Wissen Berlin Pankow, Deutschland</p>
             </div>
           </div>
@@ -137,9 +137,7 @@ export default function Resume() {
         <h2 className="text-xl font-semibold border-b border-t pb-1">Ehrenamtliche Tätigkeiten</h2>
         <div className="mt-4 space-y-4 text-sm">
           <div className="flex gap-4 text-sm">
-            <div className="w-24 shrink-0 text-gray-600 italic">
-              08/18 – aktuell
-            </div>
+            <div className="w-24 shrink-0 text-gray-600 italic">08/18 – aktuell</div>
             <div className="space-y-1">
               <h3 className="font-bold">Schöneberg Hilft e.V., Berlin</h3>
               <ul className="list-disc list-inside ml-4 mt-1">
@@ -162,20 +160,20 @@ export default function Resume() {
           </div>
         </div>
       </section>
-      <section className="mt-6">
+      <section>
         <h2 className="text-xl font-semibold border-b border-t pb-1">Studium im Iran</h2>
         <div className="mt-4 space-y-4 text-sm">
-          <div className="flex gap-4">
-            <div className="w-28 shrink-0 text-gray-600 italic">10/14 – 07/17</div>
-            <div>
-              <p className="font-medium">Übersetzerstudium (Englisch/Persisch) mit Bachelor Abschluss</p>
+          <div className="flex gap-4 text-sm">
+            <div className="w-24 shrink-0 text-gray-600 italic">10/14 – 07/17</div>
+            <div className="space-y-1">
+              <p className="font-bold">Übersetzerstudium (Englisch/Persisch) mit Bachelor Abschluss</p>
               <p className="text-gray-700 italic">Sheikh-Bahaei-Universität Isfahan, Iran	</p>
             </div>
           </div>
-          <div className="flex gap-4">
-            <div className="w-28 shrink-0 text-gray-600 italic">10/04 – 07/08</div>
-            <div>
-              <p className="font-medium">Informatikstudium mit dem Schwerpunkt Softwareentwicklung und Bachelorabschluss sowie Anerkennung in Deutschland</p>
+          <div className="flex gap-4 text-sm">
+            <div className="w-24 shrink-0 text-gray-600 italic">10/04 – 07/08</div>
+            <div className="space-y-1">
+              <p className="font-bold">Informatikstudium mit dem Schwerpunkt Softwareentwicklung und Bachelorabschluss sowie Anerkennung in Deutschland</p>
               <p className="text-gray-700 italic">Islamic Azad Universität</p>
             </div>
           </div>
