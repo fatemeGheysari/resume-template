@@ -119,4 +119,5 @@ A preview screenshot of the rendered resume can be added here.
 Fatemeh Gheysari  
 [GitHub Profile](https://github.com/fatemeGheysari)
 
-[LinkedIn Profile](hhttps://linkedin.com/in/fatemeh-gheysari)
+[LinkedIn Profile](https://linkedin.com/in/fatemeh-gheysari)
+
