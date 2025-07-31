@@ -11,7 +11,7 @@ export default function Resume() {
         </p>
       </section>
       <section>
-        <h2 className="text-xl font-semibold border-b border-t pb-1">Berufserfahrung</h2>
+        <h2 className="text-xl font-bold border-b border-t pb-1">Berufserfahrung</h2>
         <div className="mt-4 space-y-4 text-sm">
           <div className="flex gap-4 text-sm">
             <div className="w-24 shrink-0 text-gray-600 italic">
@@ -59,7 +59,7 @@ export default function Resume() {
         </div>
       </section>
       <section>
-        <h2 className="text-xl font-semibold border-b border-t pb-1">Vorgestellte Projekte</h2>
+        <h2 className="text-xl font-bold border-b border-t pb-1">Vorgestellte Projekte</h2>
         <div className="mt-4 space-y-4 text-sm">
           <div className="flex gap-4 text-sm">
             <div className="space-y-1">
@@ -85,7 +85,7 @@ export default function Resume() {
         </div>
       </section>
       <section className="mt-6">
-        <h2 className="text-xl font-semibold border-b border-t pb-1">Ausbildung in Deutschland</h2>
+        <h2 className="text-xl font-bold border-b border-t pb-1">Ausbildung in Deutschland</h2>
         <div className="mt-4 space-y-4 text-sm">
           <div className="flex gap-4">
             <div className="w-24 shrink-0 text-gray-600 italic">07/21 – 07/23</div>
@@ -105,7 +105,7 @@ export default function Resume() {
         </div>
       </section>
       <section>
-        <h2 className="text-xl font-semibold border-b border-t pb-1">Weitere Berufserfahrung</h2>
+        <h2 className="text-xl font-bold border-b border-t pb-1">Weitere Berufserfahrung</h2>
         <div className="mt-4 space-y-4 text-sm">
           <div className="flex gap-4 text-sm">
             <div className="w-24 shrink-0 text-gray-600 italic">
@@ -134,7 +134,7 @@ export default function Resume() {
         </div>
       </section>
       <section>
-        <h2 className="text-xl font-semibold border-b border-t pb-1">Ehrenamtliche Tätigkeiten</h2>
+        <h2 className="text-xl font-bold border-b border-t pb-1">Ehrenamtliche Tätigkeiten</h2>
         <div className="mt-4 space-y-4 text-sm">
           <div className="flex gap-4 text-sm">
             <div className="w-24 shrink-0 text-gray-600 italic">08/18 – aktuell</div>
@@ -161,7 +161,7 @@ export default function Resume() {
         </div>
       </section>
       <section>
-        <h2 className="text-xl font-semibold border-b border-t pb-1">Studium im Iran</h2>
+        <h2 className="text-xl font-bold border-b border-t pb-1">Studium im Iran</h2>
         <div className="mt-4 space-y-4 text-sm">
           <div className="flex gap-4 text-sm">
             <div className="w-24 shrink-0 text-gray-600 italic">10/14 – 07/17</div>
