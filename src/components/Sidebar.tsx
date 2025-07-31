@@ -5,7 +5,7 @@ export default function Sidebar() {
       <div>
         <h1 className="text-2xl font-bold text-center">Anahita Gheysari</h1>
         <img
-          src="/bewerbungsFoto.jpeg"
+          src={`${import.meta.env.BASE_URL}bewerbungsFoto.jpeg`}
           alt="Profilbild"
           className="w-32 h-37 object-cover mx-auto my-3 border-2 shadow-md"
         />
