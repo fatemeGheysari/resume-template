@@ -10,7 +10,7 @@ export default function Sidebar() {
           className="w-32 h-37 object-cover mx-auto my-3 border-2 shadow-md"
         />
 
-        <p className="text-stone-800 text-center">Webentwicklerin (Fullstack) – C# | ASP.NET Core | JavaScript | MS SQL</p>
+        <p className="text-gray-800 text-center">Webentwicklerin (Fullstack) – C# | ASP.NET Core | JavaScript | MS SQL</p>
       </div>
       <div className="bg-stone-600 px-3 py-1 rounded">
         <h2 className="text-lg font-bold text-white text-center">KONTAKT</h2>
